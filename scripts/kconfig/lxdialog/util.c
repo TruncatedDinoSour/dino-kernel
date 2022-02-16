@@ -147,17 +147,17 @@ static void set_coffee_theme(void)
 {
     //       Element  Foreground    Background  IsBold
     DLG_COLOR(screen, COLOR_WHITE, COLOR_BLACK, true);
-    DLG_COLOR(shadow, COLOR_BLACK, COLOR_BLACK, false);
+    DLG_COLOR(shadow, COLOR_WHITE, COLOR_BLACK, false);
     DLG_COLOR(dialog, COLOR_WHITE, COLOR_BLACK, false);
     DLG_COLOR(title,  COLOR_BLUE,  COLOR_BLACK, true);
-    DLG_COLOR(border, COLOR_BLACK, COLOR_BLACK, true);
+    DLG_COLOR(border, COLOR_WHITE, COLOR_BLACK, true);
 
     DLG_COLOR(button_active,         COLOR_YELLOW, COLOR_BLUE,   false);
     DLG_COLOR(button_inactive,       COLOR_YELLOW, COLOR_BLACK, false);
     DLG_COLOR(button_key_active,     COLOR_YELLOW, COLOR_BLUE,   true);
     DLG_COLOR(button_key_inactive,   COLOR_YELLOW, COLOR_BLACK, false);
     DLG_COLOR(button_label_active,   COLOR_WHITE,  COLOR_BLUE,   false);
-    DLG_COLOR(button_label_inactive, COLOR_BLACK,  COLOR_BLACK, true);
+    DLG_COLOR(button_label_inactive, COLOR_WHITE,  COLOR_BLACK, false);
 
     DLG_COLOR(inputbox,         COLOR_WHITE, COLOR_BLACK, true);
     DLG_COLOR(inputbox_border,  COLOR_WHITE, COLOR_BLACK, false);
@@ -168,8 +168,8 @@ static void set_coffee_theme(void)
 
     DLG_COLOR(position_indicator, COLOR_WHITE, COLOR_BLACK,  false);
 
-    DLG_COLOR(menubox,          COLOR_BLACK, COLOR_BLACK, true);
-    DLG_COLOR(menubox_border,   COLOR_BLACK,  COLOR_BLACK, true);
+    DLG_COLOR(menubox,          COLOR_WHITE, COLOR_BLACK, true);
+    DLG_COLOR(menubox_border,   COLOR_WHITE,  COLOR_BLACK, true);
 
     DLG_COLOR(item,             COLOR_WHITE, COLOR_BLACK, false);
     DLG_COLOR(item_selected,    COLOR_WHITE, COLOR_BLUE,   false);
