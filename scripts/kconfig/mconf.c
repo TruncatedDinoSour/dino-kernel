@@ -48,7 +48,7 @@ static const char mconf_readme[] =
 "\n"
 "Menus\n"
 "----------\n"
-"o  Use the Up/Down arrow keys (cursor keys) to highlight the item you\n"
+"o  Use the Up/Down arrow keys (cursor keys) or k (up) or j (down) to highlight the item you\n"
 "   wish to change or the submenu you wish to select and press <Enter>.\n"
 "   Submenus are designated by \"--->\", empty ones by \"----\".\n"
 "\n"
@@ -175,14 +175,14 @@ static const char mconf_readme[] =
 " bluetitle  => an LCD friendly version of classic. (default)\n"
 "\n",
 menu_instructions[] =
-    "Arrow keys navigate the menu.  "
+    "Arrow keys and hjkl navigate the menu.  "
     "<Enter> selects submenus ---> (or empty submenus ----).  "
     "Highlighted letters are hotkeys.  "
     "Pressing <Y> includes, <N> excludes, <M> modularizes features.  "
     "Press <Esc><Esc> to exit, <?> for Help, </> for Search.  "
     "Legend: [*] built-in  [ ] excluded  <M> module  < > module capable",
 radiolist_instructions[] =
-    "Use the arrow keys to navigate this window or "
+    "Use the arrow keys or vi keys to navigate this window or "
     "press the hotkey of the item you wish to select "
     "followed by the <SPACE BAR>. "
     "Press <?> for additional information about this option.",
