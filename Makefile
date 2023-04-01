@@ -1883,6 +1883,9 @@ show_tools:
 	@echo "XZ              = ${XZ}"
 	@echo "ZSTD            = ${ZSTD}"
 
+tina:
+	@echo 'may tina behold you : https://github.com/twitter/the-algorithm/issues/871#issuecomment-1493087205'
+
 # Generate tags for editors
 # ---------------------------------------------------------------------------
 quiet_cmd_tags = GEN     $@
